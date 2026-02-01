@@ -1,16 +1,16 @@
 # palindrome
 
-x="121"
+# x="121"
 
-y=""
+# y=""
 
-for i in range(len(x)):
-    y+=x[i]
+# for i in range(len(x)):
+#     y+=x[i]
 
-if(x==y):
-    print("its palindrome")
-else:
-    print("not palindrome")
+# if(x==y):
+#     print("its palindrome")
+# else:
+#     print("not palindrome")
 
 #sorting
 # x=[1,2,3,2,3,4,5,6]
@@ -21,10 +21,31 @@ else:
 
 # print(x)
 
-def fect(num):
-    if num==0 or num==1:
-       return 1
-    else:
-        return num*fect(num-1)
+# def fect(num):
+#     if num==0 or num==1:
+#        return 1
+#     else:
+#         return num*fect(num-1)
 
-print(fect(5))
+# print(fect(5))
+
+# frequency
+
+# x=[1,2,3,1,2,3,4,5,4,5,6,6,7,77,6,4,3]
+x="helloworldpythonok"
+
+y={}
+
+for i in x:
+    if i in y:
+        y[i]+=1
+    else:
+        y[i]=1
+print(y)
+
+
+        
+
+
+
+
