@@ -32,17 +32,23 @@
 # frequency
 
 # x=[1,2,3,1,2,3,4,5,4,5,6,6,7,77,6,4,3]
-x="helloworldpythonok"
+# x="helloworldpythonok"
 
-y={}
+# y={}
 
-for i in x:
-    if i in y:
-        y[i]+=1
-    else:
-        y[i]=1
-print(y)
+# for i in x:
+#     if i in y:
+#         y[i]+=1
+#     else:
+#         y[i]=1
+# print(y)
 
+
+x=[{"id": 1, "name": "anju", "salary": 121, "age": "23"},{"id": 2, "name": "anju", "salary": 1212, "age": "23"},{"id": 3, "name": "anju", "salary": 111, "age": "23"}]
+
+for  i in range(len(x)):
+    x[i]["salary"]+=1
+print(x)
 
         
 
